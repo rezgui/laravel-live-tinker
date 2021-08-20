@@ -1,0 +1,46 @@
+{
+    "name": "rezgui/laravel-live-tinker",
+    "description": "Live tinker allows you to live interact with your Laravel application from the web page (cloned from erjanmx/laravel-live-tinker)",
+    "keywords": [
+        "laravel",
+        "tinker",
+        "live-laravel",
+        "tinker-web"
+    ],
+    "homepage": "https://github.com/rezgui/laravel-live-tinker",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yacine REZGUI",
+            "email": "yacine.rezgui@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Rezgui\\LiveTinker\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rezgui\\LiveTinker\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "/vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rezgui\\LiveTinker\\LiveTinkerServiceProvider"
+            ]
+        }
+    }
+}
