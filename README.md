@@ -34,7 +34,7 @@ composer require rezgui/laravel-livetinker --dev
 Publish assets via following command
 
 ```bash
-php artisan vendor:publish --provider=Rezgui\\LiveTinker\\LiveTinkerServiceProvider --tag=live-tinker
+php artisan vendor:publish --tag=live-tinker
 ```
 
 ## Usage
