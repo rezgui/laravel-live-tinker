@@ -1,5 +1,5 @@
 {
-    "name": "rezgui/laravel-live-tinker",
+    "name": "rezgui/laravel-livetinker",
     "description": "Live tinker allows you to live interact with your Laravel application from the web page (cloned from erjanmx/laravel-live-tinker)",
     "keywords": [
         "laravel",
@@ -7,7 +7,7 @@
         "live-laravel",
         "tinker-web"
     ],
-    "homepage": "https://github.com/rezgui/laravel-live-tinker",
+    "homepage": "https://github.com/rezgui/laravel-livetinker",
     "license": "MIT",
     "authors": [
         {
