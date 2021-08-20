@@ -1,6 +1,6 @@
-# Laravel-live-tinker
+# Laravel-livetinker
 
-Laravel-live-tinker allows you to live debug/test small parts of your Laravel application from the browser page [(cloned from erjanmx/laravel-live-tinker)](https://github.com/erjanmx/laravel-live-tinker)
+Laravel-livetinker allows you to live debug/test small parts of your Laravel application from the browser page [(cloned from erjanmx/laravel-live-tinker)](https://github.com/erjanmx/laravel-live-tinker)
 
 ![Imgur](https://i.imgur.com/DRXevEn.png)
 
@@ -18,7 +18,7 @@ You can install the package via composer
 > Install only in your dev-environment
 
 ```bash
-composer require rezgui/laravel-live-tinker --dev
+composer require rezgui/laravel-livetinker --dev
 ```
 
 > If you're using Laravel prior to version 5.5 you have to configure by adding Service Provider in your `/config/app.php`
